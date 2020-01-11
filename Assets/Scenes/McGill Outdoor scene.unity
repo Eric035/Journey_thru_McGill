@@ -63359,6 +63359,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2932186892113326176, guid: 187416a16cbe14ca5ac2de8009ce2607,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 187416a16cbe14ca5ac2de8009ce2607, type: 3}
 --- !u!1 &1157970222 stripped
@@ -63386,8 +63391,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 1157970224}
-  newSprite: {fileID: -8618564146936213442, guid: 92bbdc391619f4a07bded5416d992167,
-    type: 3}
 --- !u!1 &1238924392
 GameObject:
   m_ObjectHideFlags: 0
