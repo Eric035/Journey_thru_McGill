@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 5759879841438711472}
   - component: {fileID: 5759879841438711479}
   - component: {fileID: 5759879841438711484}
-  - component: {fileID: 8108493772618258624}
+  - component: {fileID: 6571663790357133179}
   m_Layer: 0
-  m_Name: Player 1
+  m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -152,7 +152,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &8108493772618258624
+--- !u!114 &6571663790357133179
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -161,8 +161,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5759879841438711478}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3f672c92947b4039a02f2261c15e843, type: 3}
+  m_Script: {fileID: 11500000, guid: 503c14d4655974cbeb0f5f0c99dd4f1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
+  dashSpeed: 4
+  startDashTime: 3
   animator: {fileID: 5759879841438711484}

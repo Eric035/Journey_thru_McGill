@@ -9,11 +9,32 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     private float speed;
 
+    
+    public float dashSpeed;
+    private float dashTime;
+    public float startDashTime;
+    private bool dash = false;
+
     [SerializeField]
     private Animator animator;
 
+    
+
+
+    private void Start()
+    {
+        dashTime = startDashTime;
+    }
+
     void FixedUpdate()
     {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Debug.Log("Attempt at dash");
+            dash = true;
+        }
+
+
         int moveHorizontal = (int) Input.GetAxis("Horizontal");
         int moveVertical = (int) Input.GetAxis("Vertical");
 
@@ -55,6 +76,8 @@ public class PlayerMovement : MonoBehaviour
             
         }
 
+        
+
 
         if (Math.Abs(moveHorizontal) >= Math.Abs(moveVertical))
         {
@@ -66,8 +89,29 @@ public class PlayerMovement : MonoBehaviour
 
         }
        
+        if(dash)
+        {
+            if(dashTime <= 0)
+            {
+                dashTime = startDashTime;
+                gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+                dash = false;
+            } else
+            {
+                dashTime -= Time.deltaTime;
+                gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(dashSpeed* newVelocityX, dashSpeed*newVelocityY);
 
-        gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(newVelocityX, newVelocityY);
+            }
+
+
+        } else
+        {
+            gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(newVelocityX, newVelocityY);
+        }
+        
 
     }
+
+   
+
 }
