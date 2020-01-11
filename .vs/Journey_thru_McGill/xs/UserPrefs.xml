@@ -2,8 +2,9 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/OpenDoor.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayerMovement1.cs" Line="118" Column="1" />
-      <File FileName="Assets/Scripts/OpenDoor.cs" Line="19" Column="1" />
+      <File FileName="Assets/Scripts/OpenDoor.cs" Line="17" Column="6" />
       <File FileName="Assets/Scripts/CameraFollow.cs" Line="74" Column="1" />
+      <File FileName="Assets/Scripts/ChangeScene.cs" Line="17" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
