@@ -17338,7 +17338,7 @@ PrefabInstance:
     - target: {fileID: 4176608335760764890, guid: 9e06b3d0d59cf4ff68a93d73eba04048,
         type: 3}
       propertyPath: sceneName
-      value: Puzzle Scene
+      value: K Boss
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e06b3d0d59cf4ff68a93d73eba04048, type: 3}
