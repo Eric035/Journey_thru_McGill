@@ -112,6 +112,16 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-   
+
+    void OnTriggerEnter2D(Collider other) { 
+    
+        if (other.gameObject.CompareTag("PICKUP"))
+        {
+            other.gameObject.SetActive(false);
+            
+        }
+    }
+
+
 
 }
