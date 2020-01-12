@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class melting : MonoBehaviour
 {
-    
+    public GameObject L;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +22,7 @@ public class melting : MonoBehaviour
        if(collision.gameObject.tag == "Player")
         {
             Destroy(collision.gameObject);
-
+            Instantiate(L);
         }
     }
 }

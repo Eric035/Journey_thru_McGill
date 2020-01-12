@@ -5,6 +5,9 @@ using UnityEngine;
 public class IndoorHole : MonoBehaviour
 {
     public GameObject newRock;
+    public GameObject L;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +24,7 @@ public class IndoorHole : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             Destroy(collision.gameObject);
+            Instantiate(L);
         }else if(collision.gameObject.tag == "Rock")
         {
             Destroy(collision.gameObject);
