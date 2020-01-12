@@ -18,6 +18,9 @@ public class MovingObject : MonoBehaviour
     private float moveTime;
     public float startMoveTime;
 
+
+    public float pushMod;
+
     void Start()
     {
         moveTime = startMoveTime;
@@ -47,5 +50,17 @@ public class MovingObject : MonoBehaviour
 
 
         gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(nextX, nextY);
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+
+
+            collision.gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(nextX * pushMod, nextY * pushMod));
+
+
+        }
     }
 }

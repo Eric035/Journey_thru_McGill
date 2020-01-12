@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{F9A9462E-CB27-C8FB-C1F2-51E9BFDD3EF9}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/FX/NewImageEffectShader.shader">
+    <Files>
+      <File FileName="Assets/Scripts/OpenDoor.cs" Line="12" Column="10" />
+      <File FileName="Assets/Scripts/ChangeScene.cs" Line="13" Column="10" />
+      <File FileName="Assets/Scripts/PlayerMovement1.cs" Line="128" Column="1" />
+      <File FileName="Assets/Scripts/GemPickUp.cs" Line="21" Column="9" />
+      <File FileName="Assets/FX/NewImageEffectShader.shader" Line="8" Column="58" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Journey_thru_McGill" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="FX" expanded="True">
+                <Node name="NewImageEffectShader.shader" selected="True" />
+              </Node>
+              <Node name="Scripts" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b31de99f-9866-49e8-8521-fd4ba1ff8181" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
