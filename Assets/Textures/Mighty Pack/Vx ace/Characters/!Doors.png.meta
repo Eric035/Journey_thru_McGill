@@ -1862,7 +1862,7 @@ TextureImporter:
       name: '!Doors_69'
       rect:
         serializedVersion: 2
-        x: 288
+        x: 290
         y: 64
         width: 32
         height: 32
@@ -2345,7 +2345,7 @@ TextureImporter:
       name: '!Doors_92'
       rect:
         serializedVersion: 2
-        x: 256
+        x: 257
         y: 0
         width: 32
         height: 32
