@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3853208496115126183}
   - component: {fileID: -4386517738108069431}
   - component: {fileID: -8854972439815588050}
+  - component: {fileID: 3316295537074955171}
   m_Layer: 0
   m_Name: melting
   m_TagString: Untagged
@@ -131,3 +132,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &3316295537074955171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3808183929009422478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19519e5ee3266482ba2db925084b15af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
